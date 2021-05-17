@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+
+.wrapper .button:hover{
+    width: 200px;
+  }
+  .wrapper .button .icon{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:nth-child(1):hover .icon{
+    background: #4267B2;
+  }
+  .wrapper .button:nth-child(2):hover .icon{
+    background: #1DA1F2;
+  }
+  .wrapper .button:nth-child(3):hover .icon{
+    background: #E1306C;
+  }
+  
+  
+  
+  .wrapper .button:nth-child(4):hover .icon{
+    background: #ff0000;
+  }
+  .wrapper .button .icon i{
+    font-size: 25px;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:hover .icon i{
+    color: #fff;
+  }
+  .wrapper .button span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:nth-child(1) span{
+    color: #4267B2;
+  }
+  .wrapper .button:nth-child(2) span{
+    color: #1DA1F2;
+  }
+  .wrapper .button:nth-child(3) span{
+    color: #E1306C;
+  }
+  .wrapper .button:nth-child(4) span{
+    color: #ff0000;
+  }
+body{
+    background-image: url(picture/girl.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 150vh;
+    width: 100%;
+}
+.Academia{
+    font-weight: 800;
+    font-family: sans-serif;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: white;
+    font-size: 30px;
+}
+.sub{
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 14px;
+}
+nav{
+    justify-content: space-between;
+    background-color:#B3D4D9;
+}
+ul{
+    color: white;
+    align-items: center;
+    margin-top:0px;
+    padding:0px 0px 0px 0px;
+    font-weight: 200;
+    height: 100px;
+}
+nav ul{
+    display: flex;
+    height: 60px;
+    list-style: none;
+}
+nav ul li a{
+    margin:30px;
+    font-weight: 600;
+    color: white;
+    font-weight: bold;
+}
+.text-container p:nth-child(1){
+    font-family: 'Roboto', sans-serif;;
+    color:#DDEAED;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 200px 0px 10px 0px;
+}
+.text-container p:nth-child(2){
+    font-family: 'Roboto', sans-serif;;
+    font-weight:bold;
+    color: white;
+    initial-letter: 1px;
+    font-size: 47px;
+    margin: 0px 0px 0px 0px;
+}
+.text-container p:nth-child(3){
+    font-family: 'Roboto', sans-serif;;
+    font-weight:none;
+    font-size: 20px;
+    color: #D6E6E9;
+}
+.text-container button{
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    font-family: cambria;
+    font-weight: bold;
+    font-size: 14px;
+    outline: none;
+    margin: 0px 20px 0px 0px;
+}
+.get-started{
+    background-color:#1EB2A6;
+    padding-left: 20px;;
+    color: white;
+}
+.view{
+    background-color: white;
+    color: #1EB2A6;
+} 
