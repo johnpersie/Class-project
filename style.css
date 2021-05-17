@@ -1,16 +1,28 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
 
+.wrapper .button{
+  display: inline-block;
+  height: 35px;
+  width: 35px;
+  margin: 0 5px;
+  overflow: hidden;
+  background: #D6E6E9;
+  border-radius: 40px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-out;
+}
 .wrapper .button:hover{
-    width: 200px;
+    width: 134px;
   }
   .wrapper .button .icon{
     display: inline-block;
-    height: 20px;
-    width: 20px;
-    text-align: center;
+    height: 35px;
+    width: 35px;
+    text-align:center;
     border-radius: 50px;
     box-sizing: border-box;
-    line-height: 60px;
+    line-height: 35px;
     transition: all 0.3s ease-out;
   }
   .wrapper .button:nth-child(1):hover .icon{
@@ -22,15 +34,18 @@
   .wrapper .button:nth-child(3):hover .icon{
     background: #E1306C;
   }
-  
+ .wrapper{
+   padding-right: 100px;
+   padding-top: 10px;
+ } 
   
   
   .wrapper .button:nth-child(4):hover .icon{
     background: #ff0000;
   }
   .wrapper .button .icon i{
-    font-size: 25px;
-    line-height: 60px;
+    font-size: 15px;
+    line-height: 35px;
     transition: all 0.3s ease-out;
   }
   .wrapper .button:hover .icon i{
@@ -39,8 +54,9 @@
   .wrapper .button span{
     font-size: 20px;
     font-weight: 500;
-    line-height: 60px;
-    margin-left: 10px;
+    line-height: 30px;
+    margin-right: 15px;
+
     transition: all 0.3s ease-out;
   }
   .wrapper .button:nth-child(1) span{
@@ -80,7 +96,16 @@ body{
 }
 nav{
     justify-content: space-between;
+    display: flex;
     background-color:#B3D4D9;
+    width: 90%;
+}
+nav .triangle-bottom-right{
+  border-bottom: 100px solid pink;
+  border-left: 100px solid transparent;
+  margin-left: 10px;
+  width: 200px;
+
 }
 ul{
     color: white;
@@ -122,23 +147,36 @@ nav ul li a{
     font-size: 20px;
     color: #D6E6E9;
 }
-.text-container button{
-    width: 200px;
-    height: 60px;
-    border-radius: 10px;
-    border: none;
-    font-family: cambria;
-    font-weight: bold;
-    font-size: 14px;
-    outline: none;
-    margin: 0px 20px 0px 0px;
-}
 .get-started{
     background-color:#1EB2A6;
-    padding-left: 20px;;
     color: white;
+    height: 60px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    outline: none;
+    width: 260px;.g
+    margin: 0px 2px 0px 0px;
+
 }
 .view{
     background-color: white;
     color: #1EB2A6;
-} 
+    height: 60px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    outline: none;
+    width: 170px;
+    margin: 0px 0px 0px 0px;
+}
+.get-started span{
+  padding-left: 15px;
+}
+.view span{
+  padding-left: 10px;
+}
+.main-logo{
+  display: flex;
+  justify-content: space-between;
+}
