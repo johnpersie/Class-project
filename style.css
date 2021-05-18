@@ -16,7 +16,7 @@
     width: 134px;
   }
   .wrapper .button .icon{
-    display: inline-block;
+    display:inline-block;
     height: 35px;
     width: 35px;
     text-align:center;
@@ -77,6 +77,8 @@ body{
     background-position: center;
     height: 150vh;
     width: 100%;
+    margin-top: 25px;
+    margin-left: 50px;
 }
 .Academia{
     font-weight: 800;
@@ -96,16 +98,15 @@ body{
 }
 nav{
     justify-content: space-between;
+    margin-top: 20px;
     display: flex;
     background-color:#B3D4D9;
-    width: 90%;
+    width:90%;
 }
 nav .triangle-bottom-right{
   border-bottom: 100px solid pink;
   border-left: 100px solid transparent;
   margin-left: 10px;
-  width: 200px;
-
 }
 ul{
     color: white;
@@ -157,7 +158,6 @@ nav ul li a{
     outline: none;
     width: 260px;.g
     margin: 0px 2px 0px 0px;
-
 }
 .view{
     background-color: white;
@@ -179,4 +179,29 @@ nav ul li a{
 .main-logo{
   display: flex;
   justify-content: space-between;
+}
+.logo-container{
+  display:flex;
+  margin-top:  10px;
+  text-align: left;
+  margin-left: 320px;
+}
+.clock-icon{
+  height: 40px;
+}
+.clock-logo{
+  color: white;
+  padding-left: 12px;
+  padding-right: 120px;
+  font-size: 20px;
+  font-family:tahoma;
+  font-weight: 300;
+  margin: 0;
+}
+.contact-logo{
+  color: white;
+  font-size: 20px;
+  font-family: tahoma;
+  margin: 0;
+  font-weight: 300;
 }
