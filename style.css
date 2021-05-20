@@ -20,13 +20,17 @@ body{
 }
 
 /* Academia logo */
+.logo{
+  margin-top: 10px;
+}
 .Academia{
   font-weight: 1000;
   font-family: sans-serif;
   margin-bottom: 0px;
   margin-top: 0px;
   color: white;
-  font-size: 30px;
+  font-size: 33px;
+  line-height: 38px;
 }
 .education-type{
 font-weight: 600;
@@ -36,12 +40,13 @@ margin-bottom: 10px;
 color: white;
 font-size: 14px;
 }
+
 /* clock and contact icons */
 .logo-container{
   display:flex;
   margin-top:  10px;
   text-align: left;
-  margin-left: 190px;
+  margin-left: 240px;
 }
 .clock-icon{
   height: 40px;
@@ -49,18 +54,25 @@ font-size: 14px;
 .clock-logo{
   color: white;
   padding-left: 12px;
-  padding-right: 90px;
-  font-size: 20px;
+  padding-right: 70px;
+  font-size: 18px;
   font-family:tahoma;
   font-weight: 300;
   margin: 0;
 }
+.time{
+  font-weight: bold;
+}
 .contact-logo{
   color: white;
-  font-size: 20px;
+  padding-left: 10px;
+  font-size: 18px;
   font-family: tahoma;
   margin: 0;
   font-weight: 300;
+}
+.number{
+  font-weight: bold;
 }
 
 /* social media icons */
@@ -73,7 +85,7 @@ font-size: 14px;
   background: #D6E6E9;
   border-radius: 40px;
   cursor: pointer;
-  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  /* box-shadow: 0px 10px 10px rgba(0,0,0,0.1); */
   transition: all 0.3s ease-out;
 }
 .wrapper .button:hover{
@@ -154,9 +166,12 @@ nav ul{
 nav ul li a{
   margin:30px;
   font-weight: 600;
-  color: white;
+  color: #E1F2F5;
   font-weight: bold;
   text-decoration: none;
+}
+.home{
+  color: #75a0a3;
 }
 nav ul li a:hover{
   margin:30px;
@@ -184,6 +199,8 @@ nav ul li a:hover{
 .certi a{
   text-decoration: none;
   color: #ffffff;
+  text-align: center;
+  padding-left: 30px;
 }
 
 /* page contents and buttons*/
@@ -192,7 +209,7 @@ nav ul li a:hover{
   color:#DDEAED;
   font-weight: bold;
   font-size: 20px;
-  margin: 200px 0px 10px 0px;
+  margin: 120px 0px 10px 0px;
 }
 .text-container p:nth-child(2){
   font-family: 'Roboto', sans-serif;;
@@ -207,6 +224,7 @@ nav ul li a:hover{
     font-weight:none;
     font-size: 20px;
     color: #D6E6E9;
+    line-height: 18px;
 }
 .get-started{
     background-color:#1EB2A6;
